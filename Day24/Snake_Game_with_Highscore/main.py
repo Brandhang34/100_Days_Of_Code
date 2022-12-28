@@ -45,5 +45,5 @@ while game_is_on:
             scoreboard.reset()
             snake.reset()
 
-
+#makes sure that the screen doesn't close when program finishes
 screen.exitonclick()

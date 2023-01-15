@@ -1,7 +1,7 @@
 # import smtplib
 
 # my_email = "BrandonHang.Business@gmail.com"
-# my_password = "xbcmekeilocmixzi"
+# my_password = ""
 
 # connection = smtplib.SMTP("smtp.gmail.com", 587)
 # connection.starttls()
@@ -28,7 +28,7 @@ with open("quotes.txt", "r") as data:
 random_quote = random.choice(quotes)
 
 my_email = "BrandonHang.Business@gmail.com"
-my_password = "xbcmekeilocmixzi"
+my_password = ""
 
 if day_of_week == 6:
     connection = smtplib.SMTP("smtp.gmail.com", 587)

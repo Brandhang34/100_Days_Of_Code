@@ -6,10 +6,10 @@ import requests
 import os
 
 #Set the environment variables from spotify
-
-# os.environ['SPOTIPY_CLIENT_ID'] = ''
+# os.environ['SPOTIPY_CLIENT_ID'] =''
 # os.environ['SPOTIPY_CLIENT_SECRET'] = ''
 # os.environ['SPOTIPY_REDIRECT_URI'] = ''
+
 
 user_input_date=input("What year do you want to travel to? Type the date in this format YYYY-MM-DD:")
 

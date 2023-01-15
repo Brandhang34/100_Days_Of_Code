@@ -17,7 +17,7 @@ month = now.month
 day = now.day
 
 my_email = "BrandonHang.Business@gmail.com"
-my_password = "xbcmekeilocmixzi"
+my_password = ""
 
 for i in range(0, len(birthday_dict)):
     if birthday_dict[i]["month"] == month and birthday_dict[i]["day"] == day:

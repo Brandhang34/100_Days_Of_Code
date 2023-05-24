@@ -14,7 +14,7 @@ news_api_key = os.environ.get("NEWS_AUTH_TOKEN")
 
 
 def getArticles():
-	news_params={
+	news_params = {
 		"from": current_date,
 		"to": current_date,
 		"q": COMPANY_NAME,
@@ -35,7 +35,7 @@ def getArticles():
 	
 	return articles
 
-def sendMessage(list_of_articles, percentage):
+def sendMessage (list_of_articles, percentage):
 	account_sid = 'AC90d0da15a4e51801a75729a6d3e75781'
 	auth_token = os.environ.get("AUTH_TOKEN")
 	client = Client(account_sid, auth_token)
